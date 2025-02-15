@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    text-decoration-color: red;
+}
+h1:hover {
+    color: red;
+    animation: movement 1s infinite;
+}
+@keyframes movement {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b4b2b2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav a:hover {
+    color: red;
+    animation: movement 1s infinite;
+}   
+
+/* CHATGPT ANNIMATION CODE */
+/* .github-icon {
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .github-icon:hover {
+        animation: bounce 0.6s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        30% {
+            transform: translateY(-10px);
+        }
+        50% {
+            transform: translateY(5px);
+        }
+        70% {
+            transform: translateY(-5px);
+        }
+    } */
